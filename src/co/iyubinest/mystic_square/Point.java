@@ -1,4 +1,4 @@
-package co.iyubinest.mystic_square.game;
+package co.iyubinest.mystic_square;
 
 import java.util.Objects;
 

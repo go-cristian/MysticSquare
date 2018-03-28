@@ -1,10 +1,9 @@
 package co.iyubinest.mystic_square;
 
-import co.iyubinest.mystic_square.game.Game;
 import org.junit.Test;
 
-import static co.iyubinest.mystic_square.game.Game.Movement.LEFT;
-import static co.iyubinest.mystic_square.game.Game.Movement.UP;
+import static co.iyubinest.mystic_square.Game.Movement.LEFT;
+import static co.iyubinest.mystic_square.Game.Movement.UP;
 import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsNot.not;
 import static org.junit.Assert.assertThat;

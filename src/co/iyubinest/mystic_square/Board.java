@@ -1,4 +1,4 @@
-package co.iyubinest.mystic_square.game;
+package co.iyubinest.mystic_square;
 
 import java.util.Collection;
 import java.util.LinkedHashMap;
@@ -31,25 +31,6 @@ final class Board {
     map.put(point, tile);
   }
 
-  @Override public String toString() {
-    StringBuilder builder = new StringBuilder();
-    for (Point point : map.keySet()) {
-      if (point.x() == 0) {
-        builder.append("{");
-        builder.append(map.get(point).toString());
-        builder.append(",");
-      } else if (point.x() == 3) {
-        builder.append(map.get(point).toString());
-        builder.append("},");
-      } else {
-        builder.append(map.get(point).toString());
-        builder.append(",");
-      }
-    }
-    builder.delete(builder.length() - 1, builder.length());
-    return builder.toString();
-  }
-
   Board swap(Point from, Point to) {
     Map<Point, Tile> map = new LinkedHashMap<>(this.map);
     Tile fromTile = map.get(from);
@@ -73,6 +54,36 @@ final class Board {
     return deviation;
   }
 
+  @Override public String toString() {
+    StringBuilder builder = new StringBuilder();
+    for (Point point : map.keySet()) {
+      if (point.x() == 0) {
+        builder.append("{");
+        builder.append(map.get(point).toString());
+        builder.append(",");
+      } else if (point.x() == 3) {
+        builder.append(map.get(point).toString());
+        builder.append("},");
+      } else {
+        builder.append(map.get(point).toString());
+        builder.append(",");
+      }
+    }
+    builder.delete(builder.length() - 1, builder.length());
+    return builder.toString();
+  }
+
+  @Override public boolean equals(Object o) {
+    if (this == o) return true;
+    if (o == null || getClass() != o.getClass()) return false;
+    Board board = (Board) o;
+    return Objects.equals(map, board.map);
+  }
+
+  @Override public int hashCode() {
+    return Objects.hash(map);
+  }
+
   private static Map<Point, Tile> defaultMap() {
     Map<Point, Tile> map = new LinkedHashMap<>();
     map.put(new Point(0, 0), Tile.ONE);
@@ -92,16 +103,5 @@ final class Board {
     map.put(new Point(2, 3), Tile.FIFTEEN);
     map.put(new Point(3, 3), Tile.SPACE);
     return map;
-  }
-
-  @Override public boolean equals(Object o) {
-    if (this == o) return true;
-    if (o == null || getClass() != o.getClass()) return false;
-    Board board = (Board) o;
-    return Objects.equals(map, board.map);
-  }
-
-  @Override public int hashCode() {
-    return Objects.hash(map);
   }
 }

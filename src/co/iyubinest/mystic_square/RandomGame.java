@@ -1,6 +1,5 @@
 package co.iyubinest.mystic_square;
 
-import co.iyubinest.mystic_square.game.Game;
 import java.util.Random;
 
 final class RandomGame implements Game {
@@ -17,8 +16,8 @@ final class RandomGame implements Game {
     return game.move(movement);
   }
 
-  @Override public boolean supports(Game.Movement movement) {
-    return game.supports(movement);
+  @Override public boolean allows(Game.Movement movement) {
+    return game.allows(movement);
   }
 
   @Override public int compareTo(Game o) {

@@ -1,4 +1,4 @@
-package co.iyubinest.mystic_square.game;
+package co.iyubinest.mystic_square;
 
 public interface Game extends Comparable<Game> {
 
@@ -20,7 +20,7 @@ public interface Game extends Comparable<Game> {
 
   Game move(Game.Movement movement);
 
-  boolean supports(Game.Movement movement);
+  boolean allows(Game.Movement movement);
 
   double deviation();
 }

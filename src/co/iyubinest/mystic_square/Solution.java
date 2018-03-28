@@ -1,7 +1,6 @@
 package co.iyubinest.mystic_square;
 
-import co.iyubinest.mystic_square.game.Game;
-import co.iyubinest.mystic_square.game.Game.Movement;
+import co.iyubinest.mystic_square.Game.Movement;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Comparator;
@@ -9,10 +8,10 @@ import java.util.HashSet;
 import java.util.PriorityQueue;
 import java.util.Set;
 
-import static co.iyubinest.mystic_square.game.Game.Movement.DOWN;
-import static co.iyubinest.mystic_square.game.Game.Movement.LEFT;
-import static co.iyubinest.mystic_square.game.Game.Movement.RIGHT;
-import static co.iyubinest.mystic_square.game.Game.Movement.UP;
+import static co.iyubinest.mystic_square.Game.Movement.DOWN;
+import static co.iyubinest.mystic_square.Game.Movement.LEFT;
+import static co.iyubinest.mystic_square.Game.Movement.RIGHT;
+import static co.iyubinest.mystic_square.Game.Movement.UP;
 
 final class Solution {
 
@@ -57,7 +56,7 @@ final class Solution {
   }
 
   private void add(Collection<Game> games, Game game, Movement movement) {
-    if (game.supports(movement)) {
+    if (game.allows(movement)) {
       games.add(game.move(movement));
     }
   }

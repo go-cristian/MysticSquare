@@ -1,4 +1,4 @@
-package co.iyubinest.mystic_square.game;
+package co.iyubinest.mystic_square;
 
 import java.util.Objects;
 
@@ -18,7 +18,7 @@ final class BaseGame implements Game {
   }
 
   @Override public BaseGame move(Movement movement) {
-    if (supports(movement)) {
+    if (allows(movement)) {
       Point from = center;
       Point to = pointToMove(center, movement);
       Board swapped = board.swap(from, to);
@@ -28,7 +28,7 @@ final class BaseGame implements Game {
     }
   }
 
-  @Override public boolean supports(Movement movement) {
+  @Override public boolean allows(Movement movement) {
     switch (movement) {
       case UP:
         return supports(center.x(), center.y() - 1);

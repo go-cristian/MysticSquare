@@ -1,4 +1,4 @@
-package co.iyubinest.mystic_square.game;
+package co.iyubinest.mystic_square;
 
 enum Tile {
   SPACE,
