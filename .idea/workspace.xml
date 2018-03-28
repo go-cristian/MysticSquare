@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a47c79aa-15a5-4b88-8202-6accc06ce808" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/co/iyubinest/mystic_square/BaseGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/iyubinest/mystic_square/game/BaseGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/iyubinest/mystic_square/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/iyubinest/mystic_square/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/iyubinest/mystic_square/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/iyubinest/mystic_square/RandomGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/iyubinest/mystic_square/RandomGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/iyubinest/mystic_square/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/iyubinest/mystic_square/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/iyubinest/mystic_square/Tile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/co/iyubinest/mystic_square/SolutionShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/co/iyubinest/mystic_square/SolutionShould.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SolutionShould.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/co/iyubinest/mystic_square/SolutionShould.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/game/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/game/Point.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+              <folding>
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseGame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/game/BaseGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="47" column="47" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="47" />
+              <folding>
+                <element signature="e#1778#1779#0" expanded="true" />
+                <element signature="e#1827#1828#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/game/Board.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/game/Tile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test/co/iyubinest/magic_fifteen/Genius.java" />
+        <option value="$PROJECT_DIR$/test/co/iyubinest/magic_fifteen/MatrixShould.java" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/magic_fifteen/Genius.java" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/magic_fifteen/RandomizedGame.java" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/magic_fifteen/ArrayUtil.java" />
+        <option value="$PROJECT_DIR$/src/deprecated/Tile.java" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/magic_fifteen/Board.java" />
+        <option value="$PROJECT_DIR$/test/co/iyubinest/magic_fifteen/GeniusShould.java" />
+        <option value="$PROJECT_DIR$/test/co/iyubinest/magic_fifteen/GeniusTest.java" />
+        <option value="$PROJECT_DIR$/test/co/iyubinest/magic_fifteen/GameTest.java" />
+        <option value="$PROJECT_DIR$/test/co/iyubinest/magic_fifteen/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/magic_fifteen/Deviation.java" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/magic_fifteen/Point.java" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/magic_fifteen/Tile.java" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/magic_fifteen/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/magic_fifteen/Solution.java" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/magic_fifteen/Game.java" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/magic_fifteen/BaseGame.java" />
+        <option value="$PROJECT_DIR$/test/co/iyubinest/magic_fifteen/SolutionShould.java" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/magic_fifteen/RandomGame.java" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/mystic_square/BaseGame.java" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/mystic_square/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/mystic_square/Board.java" />
+        <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/mystic_square/game/Point.java" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/mystic_square/game/BaseGame.java" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/mystic_square/game/OrderedGame.java" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/mystic_square/game/Game.java" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/mystic_square/RandomGame.java" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/mystic_square/Solution.java" />
+        <option value="$PROJECT_DIR$/src/co/iyubinest/mystic_square/game/RandomGame.java" />
+        <option value="$PROJECT_DIR$/test/co/iyubinest/mystic_square/SolutionShould.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="9" />
+    <option name="y" value="30" />
+    <option name="width" value="1400" />
+    <option name="height" value="837" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="15 Puzzle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 Puzzle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="15 Puzzle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 Puzzle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="15 Puzzle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 Puzzle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mystic_square" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="15 Puzzle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 Puzzle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mystic_square" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="15 Puzzle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 Puzzle" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="15 Puzzle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 Puzzle" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="mystic_square" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="co.iyubinest.mystic_square" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.iyubinest.magic_fifteen" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="co.iyubinest.magic_fifteen" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SolutionShould">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="SolutionShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mystic Square" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="deprecated.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="co.iyubinest.mystic_square" />
+      <option name="MAIN_CLASS_NAME" value="co.iyubinest.mystic_square.SolutionShould" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SolutionShould.findSolutionWithRandom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mystic Square" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.iyubinest.mystic_square.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="co.iyubinest.mystic_square" />
+      <option name="MAIN_CLASS_NAME" value="co.iyubinest.mystic_square.SolutionShould" />
+      <option name="METHOD_NAME" value="findSolutionWithRandom" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SolutionShould.findSolutionWithTwoMovement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mystic Square" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.iyubinest.mystic_square.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="co.iyubinest.mystic_square" />
+      <option name="MAIN_CLASS_NAME" value="co.iyubinest.mystic_square.SolutionShould" />
+      <option name="METHOD_NAME" value="findSolutionWithTwoMovement" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SolutionShould.solveIdentity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mystic Square" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.iyubinest.mystic_square.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="co.iyubinest.mystic_square" />
+      <option name="MAIN_CLASS_NAME" value="co.iyubinest.mystic_square.SolutionShould" />
+      <option name="METHOD_NAME" value="solveIdentity" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SolutionShould.solveOneMovement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mystic Square" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.iyubinest.mystic_square.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="co.iyubinest.mystic_square" />
+      <option name="MAIN_CLASS_NAME" value="co.iyubinest.mystic_square.SolutionShould" />
+      <option name="METHOD_NAME" value="solveOneMovement" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SolutionShould" />
+      <item itemvalue="JUnit.SolutionShould.findSolutionWithRandom" />
+      <item itemvalue="JUnit.SolutionShould.solveIdentity" />
+      <item itemvalue="JUnit.SolutionShould.findSolutionWithTwoMovement" />
+      <item itemvalue="JUnit.SolutionShould.solveOneMovement" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SolutionShould" />
+        <item itemvalue="JUnit.SolutionShould.solveOneMovement" />
+        <item itemvalue="JUnit.SolutionShould.solveIdentity" />
+        <item itemvalue="JUnit.SolutionShould.findSolutionWithRandom" />
+        <item itemvalue="JUnit.SolutionShould.findSolutionWithTwoMovement" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a47c79aa-15a5-4b88-8202-6accc06ce808" name="Default" comment="" />
+      <created>1520477469125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520477469125</updated>
+      <workItem from="1520477470834" duration="3387000" />
+      <workItem from="1520557662669" duration="12017000" />
+      <workItem from="1520900862534" duration="4541000" />
+      <workItem from="1521084681498" duration="5200000" />
+      <workItem from="1521154869024" duration="10623000" />
+      <workItem from="1521211739395" duration="1272000" />
+      <workItem from="1521242847996" duration="2414000" />
+      <workItem from="1522207362389" duration="627000" />
+      <workItem from="1522239419408" duration="2591000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SolutionShould_solveIdentity - 2018.03.28 at 07h 31m 55s.xml">
+      <configuration name="SolutionShould.solveIdentity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionShould_solveIdentity - 2018.03.28 at 07h 33m 05s.xml">
+      <configuration name="SolutionShould.solveIdentity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionShould_solveIdentity - 2018.03.28 at 07h 33m 09s.xml">
+      <configuration name="SolutionShould.solveIdentity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionShould - 2018.03.28 at 07h 33m 25s.xml">
+      <configuration name="SolutionShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionShould_solveOneMovement - 2018.03.28 at 07h 33m 38s.xml">
+      <configuration name="SolutionShould.solveOneMovement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionShould_solveOneMovement - 2018.03.28 at 07h 40m 52s.xml">
+      <configuration name="SolutionShould.solveOneMovement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionShould_solveOneMovement - 2018.03.28 at 07h 41m 05s.xml">
+      <configuration name="SolutionShould.solveOneMovement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionShould_solveOneMovement - 2018.03.28 at 07h 44m 24s.xml">
+      <configuration name="SolutionShould.solveOneMovement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionShould_solveOneMovement - 2018.03.28 at 07h 45m 39s.xml">
+      <configuration name="SolutionShould.solveOneMovement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionShould - 2018.03.28 at 07h 45m 47s.xml">
+      <configuration name="SolutionShould" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="42672000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="9" y="30" width="1400" height="837" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32837838" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32837838" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2790869" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39864865" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/deprecated/BaseGame.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/deprecated/RandomizedGame.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Arrays.java</url>
+          <line>4250</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/co/iyubinest/mystic_square/SolutionShould.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/RandomGame.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/Solution.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/game/BaseGame.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="38" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>ordered.equals(current)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>current.equals(ordered)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>o == null || getClass() != o.getClass()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>solution.origin().toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>deviation()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((BaseGame) ((java.util.ArrayList)games).get(3)).deviation()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.ArrayList</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((BaseGame) ((java.util.ArrayList)games).get(2)).deviation()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.ArrayList</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((BaseGame) ((java.util.ArrayList)games).get(1)).deviation()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.ArrayList</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((BaseGame) ((java.util.ArrayList)games).get(0)).deviation()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.ArrayList</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/deprecated/Tile.java" />
+    <entry file="file://$PROJECT_DIR$/src/deprecated/Point.java" />
+    <entry file="file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/co/iyubinest/mystic_square/SolutionShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8775">
+          <caret line="585" column="13" selection-start-line="585" selection-start-column="13" selection-end-line="585" selection-end-column="13" />
+          <folding>
+            <element signature="e#12969#12970#0" expanded="true" />
+            <element signature="e#13025#13026#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/game/Tile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/deprecated/RandomGame.java" />
+    <entry file="file://$PROJECT_DIR$/src/deprecated/RandomizedGame.java" />
+    <entry file="file://$PROJECT_DIR$/src/deprecated/Tile.java" />
+    <entry file="file://$PROJECT_DIR$/src/deprecated/Point.java" />
+    <entry file="file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/game/BaseGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/co/iyubinest/mystic_square/SolutionShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/deprecated/RandomGame.java" />
+    <entry file="file://$PROJECT_DIR$/src/deprecated/RandomizedGame.java" />
+    <entry file="file://$PROJECT_DIR$/src/deprecated/Tile.java" />
+    <entry file="file://$PROJECT_DIR$/src/deprecated/Matrix.java" />
+    <entry file="file://$PROJECT_DIR$/src/deprecated/Point.java" />
+    <entry file="file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/game/BaseGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/deprecated/Genius.java" />
+    <entry file="file://$PROJECT_DIR$/src/deprecated/BaseGame.java" />
+    <entry file="file://$PROJECT_DIR$/test/co/iyubinest/magic_fifteen/MatrixShould.java" />
+    <entry file="file://$PROJECT_DIR$/src/deprecated/Matrix.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="103" column="11" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4251" selection-start-line="4251" selection-end-line="4251" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/iyubinest/magic_fifteen/ArrayUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/deprecated/BaseGame.java" />
+    <entry file="file://$PROJECT_DIR$/src/deprecated/Game.java" />
+    <entry file="file://$PROJECT_DIR$/src/deprecated/Genius.java" />
+    <entry file="file://$PROJECT_DIR$/src/deprecated/Matrix.java" />
+    <entry file="file://$PROJECT_DIR$/src/deprecated/RandomGame.java" />
+    <entry file="file://$PROJECT_DIR$/src/deprecated/RandomizedGame.java" />
+    <entry file="file://$PROJECT_DIR$/src/deprecated/Tile.java" />
+    <entry file="file://$PROJECT_DIR$/test/co/iyubinest/magic_fifteen/MatrixShould.java" />
+    <entry file="file://$PROJECT_DIR$/src/deprecated/Point.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="585" column="13" selection-start-line="585" selection-start-column="13" selection-end-line="585" selection-end-column="13" />
+          <folding>
+            <element signature="e#12969#12970#0" expanded="true" />
+            <element signature="e#13025#13026#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/iyubinest/magic_fifteen/Deviation.java" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="135" column="15" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/game/OrderedGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/game/BaseGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="47" column="47" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="47" />
+          <folding>
+            <element signature="e#1778#1779#0" expanded="true" />
+            <element signature="e#1827#1828#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/game/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/game/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/game/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/game/Tile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/iyubinest/mystic_square/RandomGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="195">
+            <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/co/iyubinest/mystic_square/SolutionShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>15 Puzzle</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

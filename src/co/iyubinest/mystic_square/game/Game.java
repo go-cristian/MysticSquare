@@ -1,6 +1,8 @@
-package co.iyubinest.mystic_square;
+package co.iyubinest.mystic_square.game;
 
-interface Game extends Comparable<Game> {
+public interface Game extends Comparable<Game> {
+
+  public static Game ORDERED = BaseGame.with(new Point(3, 3), new Board());
 
   enum Movement {
     RIGHT, DOWN, LEFT, UP;
@@ -15,9 +17,10 @@ interface Game extends Comparable<Game> {
     }
 
   }
-  BaseGame move(BaseGame.Movement movement);
 
-  boolean supports(BaseGame.Movement movement);
+  Game move(Game.Movement movement);
+
+  boolean supports(Game.Movement movement);
 
   double deviation();
 }

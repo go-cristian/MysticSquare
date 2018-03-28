@@ -1,8 +1,8 @@
-package co.iyubinest.mystic_square;
+package co.iyubinest.mystic_square.game;
 
 import java.util.Objects;
 
-class Point {
+final class Point {
   private final int x;
   private final int y;
 

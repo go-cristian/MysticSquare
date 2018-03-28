@@ -1,6 +1,7 @@
 package co.iyubinest.mystic_square;
 
-import co.iyubinest.mystic_square.Game.Movement;
+import co.iyubinest.mystic_square.game.Game;
+import co.iyubinest.mystic_square.game.Game.Movement;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Comparator;
@@ -8,10 +9,10 @@ import java.util.HashSet;
 import java.util.PriorityQueue;
 import java.util.Set;
 
-import static co.iyubinest.mystic_square.Game.Movement.DOWN;
-import static co.iyubinest.mystic_square.Game.Movement.LEFT;
-import static co.iyubinest.mystic_square.Game.Movement.RIGHT;
-import static co.iyubinest.mystic_square.Game.Movement.UP;
+import static co.iyubinest.mystic_square.game.Game.Movement.DOWN;
+import static co.iyubinest.mystic_square.game.Game.Movement.LEFT;
+import static co.iyubinest.mystic_square.game.Game.Movement.RIGHT;
+import static co.iyubinest.mystic_square.game.Game.Movement.UP;
 
 final class Solution {
 
@@ -33,9 +34,9 @@ final class Solution {
     PriorityQueue<Game> queue = new PriorityQueue<>(10, new GameComparator());
     Set<Game> discarted = new HashSet<>();
     queue.add(game);
-    while (!queue.isEmpty()){
+    while (!queue.isEmpty()) {
       Game current = queue.poll();
-      if (current.equals(BaseGame.BASE)) {
+      if (current.equals(Game.ORDERED)) {
         return current;
       } else if (!discarted.contains(current)) {
         Collection<Game> games = allMoves(current);

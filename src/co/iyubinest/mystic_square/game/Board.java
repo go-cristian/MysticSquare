@@ -1,4 +1,4 @@
-package co.iyubinest.mystic_square;
+package co.iyubinest.mystic_square.game;
 
 import java.util.Collection;
 import java.util.LinkedHashMap;

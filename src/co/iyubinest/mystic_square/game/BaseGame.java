@@ -1,10 +1,8 @@
-package co.iyubinest.mystic_square;
+package co.iyubinest.mystic_square.game;
 
 import java.util.Objects;
 
 final class BaseGame implements Game {
-
-  static final BaseGame BASE = BaseGame.with(new Point(3, 3), new Board());
 
   private final Point center;
 
